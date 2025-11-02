@@ -3,4 +3,8 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+   eleventyConfig.addPassthroughCopy("Glasses");
+    eleventyConfig.addPassthroughCopy("Wallet");
+     eleventyConfig.addPassthroughCopy("Iphone");
+
 };

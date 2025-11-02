@@ -1,13 +1,10 @@
 ---
 layout: layout.liquid
-title: Everyday Carry
+title: What I Carry With Me No Matter What
 ---
 
-# Welcome to My Everyday Carry Site
+# What I Carry With Me No Matter What
 
 Here are the three things I never leave home without:
 
-- [iPhone](/objects/iphone/)
-- [Wallet](/objects/wallet/)
-- [Glasses](/objects/glasses/)
 
