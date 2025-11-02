@@ -6,5 +6,6 @@ module.exports = function(eleventyConfig) {
    eleventyConfig.addPassthroughCopy("Glasses");
     eleventyConfig.addPassthroughCopy("Wallet");
      eleventyConfig.addPassthroughCopy("Iphone");
+     eleventyConfig.addPassthroughCopy("src");
 
 };
