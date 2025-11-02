@@ -1,8 +1,8 @@
 ---
 layout: layout.liquid
-title: Description
+title: Wallet
 ---
 
-# Description **Boilerplate**
+# Description for **Wallet**
 <img class="about" alt="pine" src="/images/pine.png" width="50" />
 
