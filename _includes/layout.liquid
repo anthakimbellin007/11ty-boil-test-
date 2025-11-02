@@ -1,5 +1,5 @@
 ---
-title: 11ty Boilerplate
+title: Everyday Carry
 ---
 
 <!DOCTYPE html>
@@ -11,13 +11,25 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-       <li><a href="/iphone/" title="Iphone">Iphone Description</a></li>
-    </ul>
-  </nav>
+  <header>
+    <h1>My Everyday Carry</h1>
+    <nav>
+      <ul>
+        <li><a href="/" title="Go to homepage">Home</a></li>
+        <li><a href="/about/" title="Learn more about me">About</a></li>
+        <li><a href="/items/iphone/" title="View my iPhone">iPhone</a></li>
+        <li><a href="/items/wallet/" title="View my Wallet">Wallet</a></li>
+        <li><a href="/items/glasses/" title="View my Glasses">Glasses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ "now" | date: "%Y" }} Anthony Bellinger — Everyday Carry Project</p>
+  </footer>
 </body>
 </html>
