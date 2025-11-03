@@ -10,3 +10,32 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+header {
+  background-color: #A8D8EA;
+  color: #4B4B4B;
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  border-bottom: 4px solid #B39CD0;
+}
+p {
+  max-width: 600px;
+  color: #4B4B4B;
+  background-color: #FFFFFF;
+  border-left: 4px solid #B39CD0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(76, 76, 76, 0.1);
+  line-height: 1.6;
+}
+footer {
+  background-color: #E1EAF1;
+  color: #4B4B4B;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-top: 3px solid #B39CD0;
+  font-size: 0.9rem;
+}
